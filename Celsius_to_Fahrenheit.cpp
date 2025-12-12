@@ -1,4 +1,5 @@
-//Convert the given temperature in Celsius to Fahrenheit
+//Convert the given temperature in Celsius to Fahrenheit.
+
 #include <iostream>
 using namespace std;
 int main() {
