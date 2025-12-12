@@ -1,5 +1,6 @@
 /*Get the user input for hou many seconds and print
 how many minutes and hours are in that many seconds*/
+
 #include <iostream>
 using namespace std;
 int main() {
