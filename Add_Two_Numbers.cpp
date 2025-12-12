@@ -1,4 +1,5 @@
-//Get two numbers from the user and add them together
+//Get two numbers from the user and add them together.
+
 #include <iostream>
 using namespace std;
 int main() {
