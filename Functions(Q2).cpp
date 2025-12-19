@@ -24,7 +24,7 @@ double divide (double x, double y){
 int main (){
     double num1, num2;
 
-    cout << "Enter two numbers: ";
+    cout << "Enter two numbers: " << endl;
     cin >> num1 >> num2;
 
     cout << "Addition: " << add (num1, num2) << endl;
