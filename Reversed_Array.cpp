@@ -9,7 +9,7 @@ void reversedArray (int arr[], int size){
 }
 int main (){
 	int elements[5] = {10,20,30,40,50};
-	cout << "Original Array = " ;
+	cout << "Original Array = ";
 	for (int i = 0; i<5; i++){
 		cout << elements[i] << " ";
 	}
