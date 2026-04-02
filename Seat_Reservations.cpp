@@ -10,6 +10,7 @@ int main() {
         for(int j=0; j<6; j++) seats[i][j] = '*';
 
     while (true) {
+        
         cout << "\nRows 1 and 2 are first class (FC)\nRows 3 through 7 are business class (BC)\nRows 8 through 13 are economy class (EC)\n";
         cout << "  A B C D E F\n";
         for (int i = 0; i < 13; i++) {
