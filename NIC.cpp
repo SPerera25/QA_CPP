@@ -4,6 +4,7 @@ using namespace std;
 
 // a) Function to get a substring
 char* SUBSTRING(char NIC[], int S, int E) {
+
     static char sub[20];
     int j = 0;
     for (int i = S; i < S + E; i++) {
@@ -15,6 +16,7 @@ char* SUBSTRING(char NIC[], int S, int E) {
 
 // b) Function to return string length
 int LEN(char STR[]) {
+
     int count = 0;
     while (STR[count] != '\0') {
         count++;
