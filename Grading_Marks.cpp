@@ -2,26 +2,29 @@
 using namespace std;
 int main (){
     float marks;
+    char grade;
     cout<<"Enter your marks";
     cin>>marks;
     if (marks>=75 && marks<=100) {
-        cout<<"You got A grade";
+        grade = 'A';
     }
     else if (marks>=51 && marks<=74) {
-        cout<<"You got B grade";
+        grade = 'B';
     }
     else if (marks>=41 && marks<=50) {
-        cout<<"You got C grade";
+        grade = 'C';
     }
     else if (marks>=31 && marks<=40) {
-        cout<<"You got D grade";
+        grade = 'D';
     }
     else if (marks>=00 && marks<=30) {
-        cout<<"You got E grade";
+        grade = 'E';
     }
     else {
         cout<<"You have entered invalid marks";
     }
+
+    cout << "Your grade is: " << grade << endl;
     return 0;
 }
 /*  OR WE CAN WRITE THE CODE AS FOLLOWS:
