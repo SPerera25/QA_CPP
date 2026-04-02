@@ -12,6 +12,7 @@ int RandomNUM(int X, int Y) {
 // b) Complete Program
 int main() {
     srand(time(0)); // Seed for true randomness
+    
     int X, Y;
     int tickets[100][5];
 
