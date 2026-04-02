@@ -9,7 +9,7 @@ int main (){
 	cin >> unit;
 	
 	switch(unit){
-		case 0 ... 50 :  // case ranges
+		case 0 ... 50 :  // case ranges only works in GCC compiler with C++17 standard
 			bill = unit*0.50;
 			cout << "For the first 50 units Rs." << bill << endl;
 			break;
